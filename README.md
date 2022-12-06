@@ -28,7 +28,7 @@ Para levantarlo debes de colocar en tu terminal el siguiente comando:
 npm start
 ```
 
-Una vez utilizado el comando, te debe aparecer el siguiente mensaje: "el servidor se ha levantado en el puerto 3001", si es así, debes de dirigirte a tu navegador y en la URL poner lo siguiente:
+Una vez utilizado el comando, te debe aparecer el siguiente mensaje: "el servidor esta corriendo en el puerto 3001", si es así, debes de dirigirte a tu navegador y en la URL poner lo siguiente:
 
 ```
 localhost:3001
