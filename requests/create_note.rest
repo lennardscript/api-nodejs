@@ -1,0 +1,15 @@
+POST http://localhost:3001/api/notas 
+Content-Type: application/json
+
+{
+  "content": "Hacer mi cama",
+  "important": false
+}
+
+###
+POST http://localhost:3001/api/notas 
+Content-Type: application/json
+
+{
+}
+
