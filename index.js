@@ -1,6 +1,8 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 
+app.use(cors())
 app.use(express.json())
 
 let notas = [
@@ -19,13 +21,8 @@ let notas = [
 ]
 
 
-/* const app = http.createServer((request, response) => {
-  response.writeHead(200, { 'content-type': 'application/json' })
-  response.end(JSON.stringify(notas))
-}) */
-
 app.get('/', (req, res) => {
-  res.send('<h1>Hola Mundo</h1>')
+  res.send('<h1>API is running...</h1>')
 })
 
 app.get('/api/notas', (req, res) => {

@@ -7,7 +7,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:3001/api/notas 
+POST http://localhost:3001/api/notas
 Content-Type: application/json
 
 {
